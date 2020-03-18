@@ -1,0 +1,28 @@
+Output from `vcpkg list`:
+
+bzip2:x64-osx                                      1.0.6-5          High-quality data compressor.
+cxxopts:x64-osx                                    2.2.0            This is a lightweight C++ option parser library,...
+fmt:x64-osx                                        6.0.0-1          Formatting library for C++. It can be used as a ...
+freetype:x64-osx                                   2.10.1-4         A library to render fonts.
+freetype[bzip2]:x64-osx                                             Support bzip2 compressed fonts.
+freetype[png]:x64-osx                                               Support PNG compressed OpenType embedded bitmaps.
+glm:x64-osx                                        0.9.9.7          OpenGL Mathematics (GLM)
+libflac:x64-osx                                    1.3.3            Library for manipulating FLAC files
+libogg:x64-osx                                     1.3.4            Ogg is a multimedia container format, and the na...
+libpng:x64-osx                                     1.6.37-6         libpng is a library implementing an interface fo...
+libvorbis:x64-osx                                  1.3.6-9eadecc-3  Ogg Vorbis is a fully open, non-proprietary, pat...
+openal-soft:x64-osx                                1.20.1           OpenAL Soft is an LGPL-licensed, cross-platform,...
+sdl2:x64-osx                                       2.0.10-2         Simple DirectMedia Layer is a cross-platform dev...
+sfml:x64-osx                                       2.5.1-6          Simple and fast multimedia library
+stb:x64-osx                                        2020-02-08       public domain header-only libraries
+zlib:x64-osx                                       1.2.11-6         A compression library
+
+SDL2 is also installed through Homebrew:
+
+$ brew info sdl2
+sdl2: stable 2.0.12 (bottled), HEAD
+Low-level access to audio, keyboard, mouse, joystick, and graphics
+https://www.libsdl.org/
+/usr/local/Cellar/sdl2/2.0.10 (87 files, 4.6MB) *
+  Poured from bottle on 2019-11-10 at 18:33:16
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2.rb

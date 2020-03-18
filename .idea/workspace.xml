@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9747cc5-8a11-43ab-bc3d-dc2a4f194ed0" name="Default Changelist" comment="" />
+    <list default="true" id="c9747cc5-8a11-43ab-bc3d-dc2a4f194ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +24,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="XoGtBcEw" />
   </component>
   <component name="ProjectId" id="1YWEsEONZWUxaoUe55kEVD2EQrl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,6 +69,7 @@
       <workItem from="1584431932250" duration="3297000" />
       <workItem from="1584518721298" duration="434000" />
       <workItem from="1584569801151" duration="238000" />
+      <workItem from="1584570351747" duration="180000" />
     </task>
     <servers />
   </component>
@@ -84,9 +93,9 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1687" height="252" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1583050885751" />
-    <state x="549" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1584518722053">
+    <state x="549" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1584570352940">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="549" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1584518722053" />
+    <state x="549" y="355" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1584570352940" />
   </component>
 </project>
