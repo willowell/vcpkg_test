@@ -39,6 +39,6 @@ target_link_libraries(vcpkg_test PUBLIC fmt::fmt)
 
 target_link_libraries(vcpkg_test PUBLIC glm)
 
-target_link_libraries(vcpkg_test PUBLIC SDL2::SDL2)
+target_link_libraries(vcpkg_test PUBLIC SDL2)
 
 message(STATUS "CMake is done!")

@@ -46,23 +46,23 @@ namespace sdl2 {
 		return make_resource(SDL_CreateSDL, SDL_DestroySDL, flags);
 	}
 
-// Create a window (that contains both a SDL_Window and the destructor for SDL_Windows)
+	// Create a window (that contains both a SDL_Window and the destructor for SDL_Windows)
 	inline window_ptr_t make_window(const char * title, int x, int y, int w, int h, Uint32 flags) {
 		return make_resource(SDL_CreateWindow, SDL_DestroyWindow, title, x, y, w, h, flags);
 	}
 
-// Create a renderer given a window, containing both the renderer and the destructor
+	// Create a renderer given a window, containing both the renderer and the destructor
 	inline renderer_ptr_t make_renderer(SDL_Window * win, int x, Uint32 flags) {
 		return make_resource(SDL_CreateRenderer, SDL_DestroyRenderer, win, x, flags);
 	}
 
-// Create a surface from a bmp file, containing both the surface and the destructor
+	// Create a surface from a bmp file, containing both the surface and the destructor
 	inline surf_ptr_t make_bmp(SDL_RWops * sdlfile) {
 		// May throw an exception if sdlfile is nullptr
 		return make_resource(SDL_LoadBMP_RW, SDL_FreeSurface, sdlfile, 1);
 	}
 
-// Create a texture from a renderer and a surface
+	// Create a texture from a renderer and a surface
 	inline texture_ptr_t make_texture(SDL_Renderer * ren, SDL_Surface * surf) {
 		return make_resource(SDL_CreateTextureFromSurface, SDL_DestroyTexture, ren, surf);
 	}

@@ -1,3 +1,9 @@
+OS: macOS 10.15.1
+CMake version: 3.16.2
+Clang++ version: 9.0.1
+
+
+
 Output from `vcpkg list`:
 
 bzip2:x64-osx                                      1.0.6-5          High-quality data compressor.
@@ -26,3 +32,38 @@ https://www.libsdl.org/
 /usr/local/Cellar/sdl2/2.0.10 (87 files, 4.6MB) *
   Poured from bottle on 2019-11-10 at 18:33:16
 From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/sdl2.rb
+
+{fmt} and GLM both work here.
+
+SDL2 code taken from C++17-cmake example at https://github.com/xyproto/sdl2-examples
+
+Additionally, when I tried the examples in that repository:
+the C++11 and C11 versions compiled without issue, albeit with a bug:
+the executable starts, but no window appears. The executable then stops shortly afterwards.
+
+The D version also works, but has the same bug. In both cases, to resolve the bug,
+I had to add an event loop:
+
+(D)
+```
+void main() {
+    ...
+    ...
+    ...
+
+    // Polling for events
+    SDL_Event event;
+    bool quit = false;
+    while(!quit) {
+        while (SDL_PollEvent(&event)) {
+            if (event.type == SDL_QUIT) {
+                quit = true;
+            }
+
+            if (event.type == SDL_KEYDOWN) {
+                quit = true;
+            }
+        }
+    }
+}
+```

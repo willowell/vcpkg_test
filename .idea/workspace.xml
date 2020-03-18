@@ -12,8 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9747cc5-8a11-43ab-bc3d-dc2a4f194ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdl2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/sdl2.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +72,30 @@
       <workItem from="1584431932250" duration="3297000" />
       <workItem from="1584518721298" duration="434000" />
       <workItem from="1584569801151" duration="238000" />
-      <workItem from="1584570351747" duration="180000" />
+      <workItem from="1584570351747" duration="1120000" />
     </task>
+    <task id="LOCAL-00001" summary="Added notes.txt">
+      <created>1584570618506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584570618506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added notes.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added notes.txt" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="678" y="36" key="CommitChangelistDialog2" timestamp="1584571656602">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="678" y="36" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1584571656602" />
     <state width="1687" height="252" key="GridCell.Tab.0.bottom" timestamp="1583050885751">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

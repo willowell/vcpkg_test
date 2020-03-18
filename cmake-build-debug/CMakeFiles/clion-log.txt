@@ -5,11 +5,5 @@
 -- Linking dependencies...
 -- CMake is done!
 -- Configuring done
-CMake Error at CMakeLists.txt:26 (add_executable):
-  Target "vcpkg_test" links to target "SDL2::SDL2" but the target was not
-  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
-  an ALIAS target is missing?
-
-
 -- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Build files have been written to: /Users/whowell/Programming/CLionProjects/vcpkg_test/cmake-build-debug
