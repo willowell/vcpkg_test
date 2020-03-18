@@ -2,6 +2,10 @@ OS: macOS 10.15.1
 CMake version: 3.16.2
 Clang++ version: 9.0.1
 
+Error:
+(make)
+ld: library not found for -lSDL2
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
 Output from `vcpkg list`:
