@@ -1,0 +1,15 @@
+"/Users/whowell/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /Users/whowell/Programming/CLionProjects/vcpkg_test
+-- Starting CMake...
+-- Finding dependencies...
+-- Including source tree...
+-- Linking dependencies...
+-- CMake is done!
+-- Configuring done
+CMake Error at CMakeLists.txt:26 (add_executable):
+  Target "vcpkg_test" links to target "SDL2::SDL2" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
